@@ -1,0 +1,30 @@
+1. Apa itu Dokumen Root?
+Dokumen root adalah direktori utama tempat file website disimpan pada server web. Contohnya di Apache (XAMPP) default-nya adalah C:\xampp\htdocs, tetapi bisa diubah sesuai kebutuhan.
+
+2. Apakah Dokumen Root Harus di C:\xampp\htdocs?
+Tidak. Lokasi ini hanya default untuk XAMPP. Bisa diubah dengan mengedit file httpd.conf dan mengatur DocumentRoot ke direktori lain.
+
+3. Perintah Git dan Fungsinya:
+git init → Membuat repository Git baru.
+git clone → Menyalin repository dari remote ke lokal.
+git remote → Menghubungkan repository lokal dengan remote.
+git add → Menambahkan file ke staging area.
+git commit → Menyimpan perubahan ke repository lokal.
+git push → Mengirim perubahan ke repository remote.
+git checkout → Berpindah branch atau mengembalikan file ke versi sebelumnya.
+
+4. Perbedaan GitHub dan GitLab
+Gunakan GitHub → Untuk proyek open-source dan kolaborasi publik.
+Gunakan GitLab → Jika butuh CI/CD bawaan & kontrol lebih dalam.
+
+5. Perbedaan Variabel User dan Variabel System
+Variabel user hanya berlaku untuk satu pengguna tertentu, sedangkan variabel system berlaku untuk semua pengguna dalam sistem.
+
+Variabel user dapat diubah tanpa hak administrator dan hanya berpengaruh pada akun tersebut, sementara variabel system memerlukan hak admin untuk diubah dan berlaku untuk seluruh sistem. Contoh variabel user adalah PATH dan TEMP, sedangkan contoh variabel system adalah SYSTEMROOT dan ProgramFiles.
+
+6. Persamaan Variabel System dan Konstan
+Sama-sama digunakan untuk menyimpan nilai tetap yang sering digunakan.
+Bisa diakses secara global dalam sistem atau program.
+Menjaga kestabilan sistem dan aplikasi.
+Perbedaan: Variabel system bisa diubah, sedangkan konstan tidak bisa diubah setelah ditetapkan.
+
