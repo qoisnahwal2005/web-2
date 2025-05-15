@@ -103,7 +103,6 @@ if (isset($_POST['simpan'])) {
                         echo "<div class='alert alert-danger'>$error</div>"; ?>
                     <?php if ($sukses) {
                         echo "<div class='alert alert-success'>$sukses</div>";
-                        header("refresh:2;url=penelitian.php");
                     } ?>
                     <form method='POST'>
                         <div class='mb-3'><label>Judul</label><textarea name='judul'
